@@ -8,3 +8,12 @@
   scroll-margin-top: 4rem;
   line-height: 1.8;
 }
+
+*:focus-visible {
+  outline: #a855f7 dashed;
+  border-radius: 2px;
+}
+
+*:active {
+  outline: none
+}

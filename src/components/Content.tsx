@@ -8,7 +8,7 @@ import { Extra } from "./content/Extra";
 
 export function Content() {
   return (
-    <main className="h-fit py-12 px-4 lg:px-20 xl:px-32 bg-lime-100 text-neutral-800">
+    <main className="h-fit py-12 px-4 lg:px-20 xl:px-32 2xl:px-72 bg-lime-100 text-neutral-800">
 
       <Intro />
 
