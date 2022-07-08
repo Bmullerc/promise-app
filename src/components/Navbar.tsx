@@ -1,4 +1,5 @@
 import { Menu, Transition } from '@headlessui/react'
+import { CaretCircleDown } from 'phosphor-react'
 import { Fragment } from 'react'
 
 export function Navbar() {
@@ -8,9 +9,10 @@ export function Navbar() {
       <ul className="flex justify-center gap-4 font-medium">
 
         <Menu>
-          <Menu.Button>
-            <a href="#intro" className="inline-block hover:text-purple-500 hover:-translate-y-1 transition-all duration-150 ease-in">Intro</a>
+          <a href="#intro" className="hover:text-purple-500 hover:-translate-y-1 transition-all duration-150 ease-in">Intro </a>
 
+          <Menu.Button className="-ml-3 hover:text-purple-500 hover:-translate-y-1 transition-all duration-150 ease-in">
+            <CaretCircleDown size={24} weight="fill" />
           </Menu.Button>
 
           <Transition
@@ -49,8 +51,10 @@ export function Navbar() {
 
         <Menu>
 
-          <Menu.Button>
-            <a href="#content" className="inline-block hover:text-purple-500 transition-all duration-150 ease-in hover:-translate-y-1">Content</a>
+          <a href="#content" className="inline-block hover:text-purple-500 transition-all duration-150 ease-in hover:-translate-y-1">Content</a>
+
+          <Menu.Button className="-ml-3 hover:text-purple-500 hover:-translate-y-1 transition-all duration-150 ease-in">
+            <CaretCircleDown size={24} weight="fill" />
           </Menu.Button>
 
           <Transition
