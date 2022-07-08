@@ -4,12 +4,12 @@ export function Callbacks() {
   return (
     <article id="callback" className="my-20 flex flex-col gap-8">
       <div>
-        <h2 className="text-3xl font-bold mb-12">Callback Functions</h2>
+        <h2 className="text-3xl font-bold mb-12 border-l-8 w-fit border-purple-400 pl-2 rounded-md">Callback Functions</h2>
         <h2 className="text-2xl font-bold">What are they?</h2>
         <p className="mt-4">A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. They can either be synchronous or asynchronous.</p>
         <p className="mt-4">Here is a quick example:</p>
         <PreCode
-        code={`function greeting(name) {
+          code={`function greeting(name) {
   alert('Hello ' + name);
 }
 
@@ -18,14 +18,14 @@ function processUserInput(callback) {
   callback(name);
 }
 
-processUserInput(greeting);`}/>
+processUserInput(greeting);`} />
       </div>
 
-      <div>
-        <h2 className="text-2xl font-bold mb-4">What is Synchronous?</h2>
+      <div className="flex flex-col gap-4">
+        <h2 className="text-2xl font-bold">What is Synchronous?</h2>
         <p>Synchronous refers to real-time communication where each party receives (and if necessary, processes and replies to) messages instantly (or as near to instantly as possible).</p>
-        <p>A human example is the telephone — during a telephone call you tend to respond to another person immediately.</p>
-        <p>Many programming commands are also synchronous — for example when you type in a calculation, the environment will return the result to you instantly, unless you program it not to.</p>
+        <p>A human example is the telephone, during a telephone call you tend to respond to another person immediately.
+          Many programming commands are also synchronous, for example when you type in a calculation, the environment will return the result to you instantly, unless you program it not to.</p>
       </div>
 
       <div className="flex flex-col gap-4">

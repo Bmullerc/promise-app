@@ -13,11 +13,11 @@ export function Content() {
       <Intro />
 
       <div id="content">
-        <h2 id="async-header" className="text-3xl font-bold mt-4">Asynchronous Javascript Methods</h2>
+        <h2 id="async-header" className="text-3xl font-bold mt-4 border-b-8 w-fit border-purple-400 rounded-md pb-1">Asynchronous Javascript Methods</h2>
         <Promises />
         <Async />
 
-        <h2 id="fetch-header" className="text-3xl font-bold">API Fetching</h2>
+        <h2 id="fetch-header" className="text-3xl font-bold border-b-8 w-fit border-purple-400 rounded-md pb-1">API Fetching</h2>
         <Ajax />
         <FetchAPI />
         <Axios />
