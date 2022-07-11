@@ -4,9 +4,9 @@ import { Fragment } from 'react'
 
 export function Navbar() {
   return (
-    <nav id="navbar" className="fixed w-screen top-0 flex justify-between items-center py-1 px-4 lg:px-20 xl:px-32 2xl:px-72 bg-purple-900 text-lime-400 text-lg shadow-md">
+    <nav id="navbar" className="fixed w-screen top-0 md:flex justify-between items-center py-1 px-4 lg:px-20 xl:px-32 2xl:px-72 bg-purple-900 text-lime-400 text-lg shadow-md">
       <h2 className="text-2xl font-bold"><a href="#about" className="hover:text-purple-500 transition-all duration-150 ease-in">Logo</a></h2>
-      <ul className="flex justify-center gap-4 font-medium">
+      <ul className="flex md:justify-center gap-4 font-medium">
 
         <Menu>
           <a href="#intro" className="hover:text-purple-500 hover:-translate-y-1 transition-all duration-150 ease-in">Intro </a>
@@ -25,7 +25,7 @@ export function Navbar() {
             leaveTo="transform opacity-0 scale-95"
           >
 
-            <Menu.Items className="lg:absolute flex flex-col top-56 md:top-8 right-72 mt-2 w-52 origin-center bg-lime-300 text-purple-900 divide-y-2 divide-lime-100 divide-dashed rounded-sm px-2 py-1 font-semibold outline-dashed shadow-boxed active:outline-dashed">
+            <Menu.Items className="absolute flex flex-col top-[70px] md:right-1/4 md:top-8 lg:right-72 2xl:right-[500px] mt-2 w-52 origin-center bg-lime-300 text-purple-900 divide-y-2 divide-lime-100 divide-dashed rounded-sm px-2 py-1 font-semibold outline-dashed shadow-boxed active:outline-dashed">
 
               <Menu.Item>
                 {({ active }) => (
@@ -41,7 +41,7 @@ export function Navbar() {
 
               <Menu.Item>
                 {({ active }) => (
-                  <a href="#xml" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>JSON</a>
+                  <a href="#json" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>JSON</a>
                 )}
               </Menu.Item>
 
@@ -67,7 +67,7 @@ export function Navbar() {
             leaveTo="transform opacity-0 scale-95"
           >
 
-            <Menu.Items className="lg:absolute flex flex-col top-56 md:top-8 right-52 mt-2 w-52 origin-center bg-lime-300 text-purple-900 divide-y-2 divide-lime-100 divide-dashed rounded-sm px-2 py-1 font-semibold outline-dashed shadow-boxed">
+            <Menu.Items className="absolute flex flex-col top-[70px] md:top-8 left-20 md:left-auto md:right-20 lg:right-40 2xl:right-80 mt-2 w-52 origin-center bg-lime-300 text-purple-900 divide-y-2 divide-lime-100 divide-dashed rounded-sm px-2 py-1 font-semibold outline-dashed shadow-boxed active:outline-dashed">
 
               <Menu.Item>
                 {({ active }) => (
