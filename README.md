@@ -5,4 +5,4 @@ Following the idea of my last learning project Hoowks, this is a mix of studying
 The main focus of this project is to study Asynchronous Javascript Methods and API Fetching.
 
 ## Live Site
-[PromisingPromises](promisingpromises.netlify.app/)
+[PromisingPromises](https://promisingpromises.netlify.app/)
