@@ -2,9 +2,7 @@ import { Callbacks } from "./content/Callbacks";
 
 export function Intro() {
   return (
-    <article id="intro" className="my-20 border-b-4 border-purple-200">
-
-
+    <article id="intro" className="my-20 pb-20 border-b-4 border-purple-200">
 
       <div>
         <h2 className="text-4xl font-bold border-b-8 w-fit border-purple-400 rounded-md pb-1">Introduction</h2>
