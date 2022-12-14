@@ -8,8 +8,9 @@ export function Callbacks() {
         <h2 className="text-2xl font-bold">What are they?</h2>
         <p className="mt-4">A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. They can either be synchronous or asynchronous.</p>
         <p className="mt-4">Here is a quick example:</p>
-        <PreCode
-          code={`function greeting(name) {
+
+        <PreCode>
+          {`function greeting(name) {
   alert('Hello ' + name);
 }
 
@@ -18,7 +19,8 @@ function processUserInput(callback) {
   callback(name);
 }
 
-processUserInput(greeting);`} />
+processUserInput(greeting);`}
+        </PreCode>
       </div>
 
       <div className="flex flex-col gap-4">

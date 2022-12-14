@@ -7,8 +7,8 @@ export function Promises() {
       <h2 className="text-2xl font-bold border-l-8 w-fit border-purple-400 pl-2 rounded-md">Promises</h2>
       <p className="mt-4">The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value. It contains both the producing code and calls to the consuming code:</p>
 
-      <PreCode
-        code={`let myPromise = new Promise(function(myResolve, myReject) {
+      <PreCode>
+        {`let myPromise = new Promise(function(myResolve, myReject) {
 // "Producing Code" (May take some time)
 
   myResolve(); // when successful
@@ -19,7 +19,8 @@ export function Promises() {
 myPromise.then(
   function(value) { /* code if successful */ },
   function(error) { /* code if some error */ }
-);`} />
+);`}
+      </PreCode>
 
       <p className="mt-8">When the producing code obtains the res ult, it should call one of the two callbacks:</p>
       <ul className="list-inside list-disc mt-4">
