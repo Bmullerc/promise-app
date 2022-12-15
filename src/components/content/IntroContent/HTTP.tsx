@@ -6,11 +6,11 @@ export const HTTP = () => {
     <article id="http" className="my-20 border-b-4 border-purple-200 pb-20 flex flex-col gap-4">
       <h2 className="text-3xl font-bold mb-12 border-l-8 w-fit border-purple-400 pl-2 rounded-md">HTTP or Hypertext Transfer Protocol</h2>
       <h3 className="text-2xl font-bold">I see this everywhere, what is it?</h3>
-      <p>It is a set of rules and protocols that are used for communication on the <Emp>World Wide Web</Emp> . HTTP is the foundation of data communication on the internet, and it is the underlying protocol that enables the exchange of information between web browsers and web servers.</p>
+      <p>It is a set of rules and protocols that are used for communication on the <Emp>World Wide Web</Emp> . It is also the foundation of data communication on the internet, and it is the underlying protocol that enables the exchange of information between web browsers and web servers.</p>
 
       <p>In general, the HTTP protocol defines how messages are formatted and transmitted, and what actions web servers and clients should take in response to various commands. When a user enters a web address into their web browser, the browser sends an <Emp>HTTP request</Emp> message to the web server that hosts the website, and the server responds with an <Emp>HTTP response</Emp> message that contains the requested webpage or other information.</p>
 
-      <p>The HTTP protocol is a stateless, client-server protocol, which means that each request message is independent of any previous request, and that the server does not store any information about the client between requests. HTTP is also a textual protocol, which means that the messages are formatted as text, and can be read and written by humans as well as machines.</p>
+      <p>It is a stateless, client-server protocol, which means that each request message is independent of any previous request, and that the server does not store any information about the client between requests. HTTP is also a textual protocol, which means that the messages are formatted as text, and can be read and written by humans as well as machines.</p>
 
       <h3 className="text-2xl font-bold mt-8">HTTP methods</h3>
 
@@ -37,7 +37,7 @@ export const HTTP = () => {
 
       <h3 className="text-2xl font-bold mt-8">HTTP headers</h3>
 
-      <p>HTTP headers are the name-value pairs that are included in the header section of an HTTP request or response message. HTTP headers are used to provide additional information about the request or response, such as the content type and length of the message body, the allowed methods for the request, and the status code of the response.</p>
+      <p>HTTP headers are the name-value pairs that are included in the header section of an HTTP request or response message. They are used to provide additional information about the request or response, such as the content type and length of the message body, the allowed methods for the request, and the status code of the response.</p>
 
       <p>They are a fundamental part of the HTTP protocol, and are used to convey a wide range of information about the request or response. For example, the <Emp>Content-Type</Emp> header is used to specify the media type of the request or response body, while the <Emp>Content-Length</Emp> header is used to specify the length of the body in bytes.</p>
 
