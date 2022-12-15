@@ -5,7 +5,7 @@ import { Fragment } from 'react'
 export function Navbar() {
   return (
     <nav id="navbar" className="fixed w-screen top-0 md:flex justify-between items-center py-1 px-4 lg:px-20 xl:px-32 2xl:px-72 bg-purple-900 text-lime-400 text-lg shadow-md">
-      <h2 className="text-2xl font-bold"><a href="#about" className="hover:text-purple-500 transition-all duration-150 ease-in">a Promise to Promises</a></h2>
+      <h2 className="text-2xl font-bold"><a href="#about" className="hover:text-purple-500 transition-all duration-150 ease-in">Promising Promises</a></h2>
       <ul className="flex md:justify-center gap-4 font-medium">
 
         <Menu>
