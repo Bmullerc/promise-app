@@ -18,7 +18,7 @@ export function Intro() {
       <div className="flex flex-col gap-4">
         <h2 id="xml" className="text-3xl font-bold border-l-8 w-fit border-purple-400 pl-2 rounded-md">XML</h2>
         <p>e<strong className="text-lg">X</strong>tensible <strong className="text-lg">M</strong>arkup <strong className="text-lg">L</strong>anguage (XML) is a generic markup language specified by the W3C (World Wide Web Consortium). The information technology industry uses many languages based on XML as data-description languages.</p>
-        <p>XML tags resemble HTML tags, but XML is much more flexible because it lets users define their own tags. In this way XML acts like a meta-language—that is, it can be used to define other languages, such as <a href="#ress" className="text-purple-600 hover:text-purple-300 font-medium">RSS</a>. Moreover, HTML is a presentation language, whereas XML is a data-description language. This means that XML has far broader applications than just the Web. For example, Web services can use XML to exchange requests and responses.</p>
+        <p>XML tags resemble HTML tags, but XML is much more flexible because it lets users define their own tags. In this way XML acts like a meta-language, that is, it can be used to define other languages, such as RSS. Moreover, HTML is a presentation language, whereas XML is a data-description language. This means that XML has far broader applications than just the Web. For example, Web services can use XML to exchange requests and responses.</p>
       </div>
 
       <div className="flex flex-col gap-4">

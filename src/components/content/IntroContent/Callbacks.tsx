@@ -1,8 +1,9 @@
+import { Emphasis as Emp } from "../../reusable/Emphasis";
 import { PreCode } from "../../reusable/PreCode";
 
 export function Callbacks() {
   return (
-    <article id="callback" className="my-20 flex flex-col gap-8">
+    <article id="callback" className="mt-20 flex flex-col gap-8">
       <div>
         <h2 className="text-3xl font-bold mb-12 border-l-8 w-fit border-purple-400 pl-2 rounded-md">Callback Functions</h2>
         <h2 className="text-2xl font-bold">What are they?</h2>
@@ -25,14 +26,14 @@ processUserInput(greeting);`}
 
       <div className="flex flex-col gap-4">
         <h2 className="text-2xl font-bold">What is Synchronous?</h2>
-        <p>Synchronous refers to real-time communication where each party receives (and if necessary, processes and replies to) messages instantly (or as near to instantly as possible).</p>
+        <p><Emp>Synchronous</Emp> refers to real-time communication where each party receives (and if necessary, processes and replies to) messages instantly (or as near to instantly as possible).</p>
         <p>A human example is the telephone, during a telephone call you tend to respond to another person immediately.
           Many programming commands are also synchronous, for example when you type in a calculation, the environment will return the result to you instantly, unless you program it not to.</p>
       </div>
 
       <div className="flex flex-col gap-4">
         <h2 className="text-2xl font-bold">What about Asynchronous?</h2>
-        <p>The term <strong>asynchronous</strong> refers to two or more objects or events <strong>not</strong> existing or happening at the same time (or multiple related things happening without waiting for the previous one to complete). In computing, the word "asynchronous" is used in two major contexts.</p>
+        <p>The term <Emp>asynchronous</Emp> refers to two or more objects or events <strong>not</strong> existing or happening at the same time (or multiple related things happening without waiting for the previous one to complete). In computing, the word <Emp>asynchronous</Emp> is used in two major contexts.</p>
 
         <h3 className="text-xl font-bold mt-4">1. Networking and communication</h3>
         <p>Asynchronous communication is a method of exchanging messages between two or more parties in which each party receives and processes messages whenever it's convenient or possible to do so, rather than doing so immediately upon receipt. Additionally, messages may be sent without waiting for acknowledgement, with the understanding that if a problem occurs, the recipient will request corrections or otherwise handle the situation.</p>

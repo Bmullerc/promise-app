@@ -1,3 +1,4 @@
+import { Emphasis as Emp } from "../reusable/Emphasis";
 import { JuicyTip } from "../reusable/Juicytip";
 import { PreCode } from "../reusable/PreCode";
 
@@ -23,7 +24,7 @@ myPromise.then(
       </PreCode>
 
       <p className="mt-8">When the producing code obtains the res ult, it should call one of the two callbacks:</p>
-      <ul className="list-inside list-disc mt-4">
+      <ul className="list-inside list-disc mt-4 marker:text-purple-700">
         <li className="font-medium"><strong>Success</strong> -&gt;  myResolve(result value)</li>
         <li className="font-medium"><strong>Error</strong> -&gt; myReject(error object)</li>
       </ul>
@@ -32,7 +33,7 @@ myPromise.then(
       <p>A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.</p>
 
       <h3 className="text-xl font-bold mt-12 mb-4">Promise Object Properties</h3>
-      <p>The Promise object supports two properties, <strong>state</strong> and <strong>result</strong>.</p>
+      <p>The Promise object supports two properties, <Emp>state</Emp> and <Emp>result</Emp>.</p>
       <p>The <strong className="text-purple-700">state</strong> and <strong className="text-lime-700">result</strong> can be:</p>
 
       <ul className="list-inside list-disc mt-4">

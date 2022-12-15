@@ -3,8 +3,8 @@ import { PreCode } from "../reusable/PreCode";
 
 export function FetchAPI() {
   return (
-    <article id="fetch" className="my-20 border-b-4 border-purple-200">
-      <h2 className="text-2xl font-bold border-l-8 mb-12  w-fit border-purple-400 pl-2 rounded-md">FetchAPI</h2>
+    <article id="fetch" className="my-20 border-b-4 border-purple-200 pb-10">
+      <h2 className="text-2xl font-bold border-l-8 mb-12 w-fit border-purple-400 pl-2 rounded-md">FetchAPI</h2>
 
       <h3 className="text-2xl font-bold mb-4">So, what it means?</h3>
 
@@ -25,7 +25,7 @@ export function FetchAPI() {
   });`}
       </PreCode>
 
-      <p>Overall, the <Emp>fetch()</Emp> API provides a more modern and convenient way to make HTTP requests in JavaScript, and it is often used in web applications to retrieve data from a server.</p>
+      <p>Overall, the <Emp>fetch()</Emp> API provides a more modern and convenient way to make HTTP requests.</p>
     </article>
   )
 }

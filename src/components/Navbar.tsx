@@ -29,12 +29,6 @@ export function Navbar() {
 
               <Menu.Item>
                 {({ active }) => (
-                  <a href="#callback" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>Callback Functions</a>
-                )}
-              </Menu.Item>
-
-              <Menu.Item>
-                {({ active }) => (
                   <a href="#xml" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>XML</a>
                 )}
               </Menu.Item>
@@ -42,6 +36,12 @@ export function Navbar() {
               <Menu.Item>
                 {({ active }) => (
                   <a href="#json" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>JSON</a>
+                )}
+              </Menu.Item>
+
+              <Menu.Item>
+                {({ active }) => (
+                  <a href="#callback" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>Callback Functions</a>
                 )}
               </Menu.Item>
 
