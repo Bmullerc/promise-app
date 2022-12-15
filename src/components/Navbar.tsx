@@ -77,7 +77,13 @@ export function Navbar() {
 
               <Menu.Item>
                 {({ active }) => (
-                  <a href="#promises" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>Async / Await</a>
+                  <a href="#async" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>Async / Await</a>
+                )}
+              </Menu.Item>
+
+              <Menu.Item>
+                {({ active }) => (
+                  <a href="#fetch-header" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>API Fetching</a>
                 )}
               </Menu.Item>
 

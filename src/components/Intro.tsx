@@ -1,4 +1,7 @@
-import { Callbacks } from "./content/Callbacks";
+import { API } from "./content/IntroContent/API";
+import { Callbacks } from "./content/IntroContent/Callbacks";
+import { HTTP } from "./content/IntroContent/HTTP";
+import { RESTful } from "./content/IntroContent/RESTful";
 
 export function Intro() {
   return (
@@ -8,8 +11,9 @@ export function Intro() {
         <h2 className="text-4xl font-bold border-b-8 w-fit border-purple-400 rounded-md pb-1">Introduction</h2>
         <p className="mt-4 text-lg font-bold">Let's cover a few important to know topics first.</p>
       </div>
-
-      <Callbacks />
+      <HTTP />
+      <API />
+      <RESTful />
 
       <div className="flex flex-col gap-4">
         <h2 id="xml" className="text-3xl font-bold border-l-8 w-fit border-purple-400 pl-2 rounded-md">XML</h2>
@@ -23,9 +27,7 @@ export function Intro() {
         <p>JSON can represent numbers, booleans, strings, null, arrays, and objects made up of these values (or of other arrays and objects). JSON does not natively represent more complex data types like functions, regular expressions, dates, and so on. (Date objects by default serialize to a string containing the date in ISO format, so the information isn't completely lost.) If you need JSON to represent additional data types, transform values as they are serialized or before they are deserialized.</p>
       </div>
 
-
-
-
+      <Callbacks />
     </article>
   )
 }

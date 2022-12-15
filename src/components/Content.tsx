@@ -13,10 +13,10 @@ export function Content() {
       <Intro />
 
       <div>
-        <h2 id="content" className="text-4xl font-bold border-b-8 w-fit border-purple-400 rounded-md pb-1">The Real Stuff</h2> 
+        <h2 id="content" className="text-4xl font-bold border-b-8 w-fit border-purple-400 rounded-md pb-1">The Real Stuff</h2>
         <h2 id="async-header" className="text-3xl font-bold mt-12">Asynchronous Javascript Methods</h2>
-        <Promises />
         <Async />
+        <Promises />
 
         <h2 id="fetch-header" className="text-3xl font-bold border-b-8 w-fit border-purple-400 rounded-md pb-1">API Fetching</h2>
         <Ajax />
