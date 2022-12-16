@@ -1,4 +1,5 @@
 import { Emphasis as Emp } from "../../reusable/Emphasis"
+import { JuicyTip } from "../../reusable/Juicytip"
 import { PreCode } from "../../reusable/PreCode"
 
 export const HTTP = () => {
@@ -11,6 +12,8 @@ export const HTTP = () => {
       <p>In general, the HTTP protocol defines how messages are formatted and transmitted, and what actions web servers and clients should take in response to various commands. When a user enters a web address into their web browser, the browser sends an <Emp>HTTP request</Emp> message to the web server that hosts the website, and the server responds with an <Emp>HTTP response</Emp> message that contains the requested webpage or other information.</p>
 
       <p>It is a stateless, client-server protocol, which means that each request message is independent of any previous request, and that the server does not store any information about the client between requests. HTTP is also a textual protocol, which means that the messages are formatted as text, and can be read and written by humans as well as machines.</p>
+
+      <JuicyTip text={<p><strong>HTTPS</strong> stands for <strong >HTTP Secure</strong> and is a secure version of <strong>HTTP</strong>. It uses a secure SSL/TLS (Secure Sockets Layer/Transport Layer Security) connection to encrypt data transmitted between the web server and the client. This makes it more difficult for hackers to intercept and steal sensitive information, such as passwords or credit card numbers, during transmission.</p>}/>
 
       <h3 className="text-2xl font-bold mt-8">HTTP methods</h3>
 

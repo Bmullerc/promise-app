@@ -34,15 +34,15 @@ myPromise.then(
 
       <h3 className="text-xl font-bold mt-12 mb-4">Promise Object Properties</h3>
       <p>The Promise object supports two properties, <Emp>state</Emp> and <Emp>result</Emp>.</p>
-      <p>The <strong className="text-purple-700">state</strong> and <strong className="text-lime-700">result</strong> can be:</p>
+      <p>The <strong>state</strong> and <strong className="text-lime-500">result</strong> can be:</p>
 
       <ul className="list-inside list-disc mt-4">
-        <li><strong className="text-purple-700">Pending</strong>: initial state, neither fullfilled nor rejected. Result is <strong className="text-lime-700">Undefined</strong>.</li>
-        <li><strong className="text-purple-700">Fulfilled</strong>: meaning that the operation was completed successfully. Result is a <strong className="text-lime-700">Value</strong>.</li>
-        <li><strong className="text-purple-700">Rejected</strong>: meaning that the operation failed. Result is an <strong className="text-lime-700">Error Object</strong>.</li>
+        <li><strong>Pending</strong>: initial state, neither fullfilled nor rejected. Result is <strong className="text-lime-600">Undefined</strong>.</li>
+        <li><strong>Fulfilled</strong>: meaning that the operation was completed successfully. Result is a <strong className="text-lime-600">Value</strong>.</li>
+        <li><strong>Rejected</strong>: meaning that the operation failed. Result is an <strong className="text-lime-600">Error Object</strong>.</li>
       </ul>
 
-      <JuicyTip text={<p>You cannot access the Promise properties <b className="text-purple-700">state</b> and <b className="text-purple-700">result</b>. You must use a Promise <b className="text-purple-700">method</b> to handle promises.</p>} />
+      <JuicyTip text={<p>You cannot access the Promise properties <strong>state</strong> and <strong>result</strong>. You must use a Promise <strong>method</strong> to handle promises.</p>} />
 
     </article>
   )

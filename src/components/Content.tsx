@@ -4,7 +4,7 @@ import { Axios } from "./content/Axios";
 import { FetchAPI } from "./content/FetchAPI";
 import { Intro } from "./Intro";
 import { Promises } from "./content/Promises";
-import { Extra } from "./content/Extra";
+import { Extra } from "./Extra";
 
 export function Content() {
   return (
@@ -12,7 +12,7 @@ export function Content() {
 
       <Intro />
 
-      <div>
+      <section>
         <h2 id="content" className="text-4xl font-bold border-b-8 w-fit border-purple-400 rounded-md pb-1">The Real Stuff</h2>
         <h2 id="async-header" className="text-3xl font-bold mt-12">Asynchronous Javascript Methods</h2>
         <Promises />
@@ -22,7 +22,7 @@ export function Content() {
         <Ajax />
         <FetchAPI />
         <Axios />
-      </div>
+      </section>
 
       <Extra />
 

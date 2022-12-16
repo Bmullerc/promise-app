@@ -17,3 +17,7 @@
 *:active {
   outline: none
 }
+
+strong {
+  color: rgb(168 85 247);
+}

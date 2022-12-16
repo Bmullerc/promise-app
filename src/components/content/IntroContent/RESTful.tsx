@@ -10,16 +10,16 @@ export const RESTful = () => {
       <div className='mb-4'>
         <p className='mb-2'>These principles are:</p>
 
-        <ul className='flex flex-col gap-2 list-inside list-disc even:marker:text-purple-700 marker:text-lime-700'>
-          <li><strong className='text-lime-700'>Client-server architecture</strong> - The client and server are separate and independent components, which means that they can be developed and deployed independently of each other. This also means that the client and server can be implemented using different technologies and programming languages.</li>
+        <ul className='flex flex-col gap-2 list-inside list-disc even:marker:text-purple-500 marker:text-lime-600'>
+          <li><strong className='text-lime-600'>Client-server architecture</strong> - The client and server are separate and independent components, which means that they can be developed and deployed independently of each other. This also means that the client and server can be implemented using different technologies and programming languages.</li>
 
-          <li><strong className='text-purple-700'>Statelessness</strong> - The server does not store any information about the client between requests. The server does not have to store any session information or manage state.</li>
+          <li><strong>Statelessness</strong> - The server does not store any information about the client between requests. The server does not have to store any session information or manage state.</li>
 
-          <li><strong className='text-lime-700'>Cacheability</strong> - The responses from the server can be stored by the client or a caching proxy in order to improve performance. This means that the client can reuse the same response data without having to make a new request to the server.</li>
+          <li><strong className='text-lime-600'>Cacheability</strong> - The responses from the server can be stored by the client or a caching proxy in order to improve performance. This means that the client can reuse the same response data without having to make a new request to the server.</li>
 
-          <li><strong className='text-purple-700'>Uniform interface</strong> - All resources are accessed using the same set of methods and the same URLs. This makes RESTful architectures easy to use and understand, because the client only needs to know the base URL of the web service in order to access all of the resources.</li>
+          <li><strong>Uniform interface</strong> - All resources are accessed using the same set of methods and the same URLs. This makes RESTful architectures easy to use and understand, because the client only needs to know the base URL of the web service in order to access all of the resources.</li>
 
-          <li><strong className='text-lime-700'>Layered system</strong> - They can be composed of multiple layers of components that are each responsible for a specific aspect of the service. This makes RESTful architectures flexible and extensible, because new layers can be added or existing layers can be replaced without impacting the other layers.</li>
+          <li><strong className='text-lime-600'>Layered system</strong> - They can be composed of multiple layers of components that are each responsible for a specific aspect of the service. This makes RESTful architectures flexible and extensible, because new layers can be added or existing layers can be replaced without impacting the other layers.</li>
         </ul>
       </div>
 
