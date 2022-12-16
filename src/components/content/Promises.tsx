@@ -34,7 +34,7 @@ myPromise.then(
 
       <h3 className="text-xl font-bold mt-12 mb-4">Promise Object Properties</h3>
       <p>The Promise object supports two properties, <Emp>state</Emp> and <Emp>result</Emp>.</p>
-      <p>The <strong>state</strong> and <strong className="text-lime-500">result</strong> can be:</p>
+      <p>The <strong>state</strong> and <strong className="text-lime-700">result</strong> can be:</p>
 
       <ul className="list-inside list-disc mt-4 flex flex-col gap-4">
         <li><strong>Pending</strong>: initial state, neither fullfilled nor rejected. Result is <strong className="text-lime-600">Undefined</strong>.</li>
