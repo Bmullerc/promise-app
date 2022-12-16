@@ -21,18 +21,18 @@ export const HTTP = () => {
 
       <p>Here is a brief overview of each of the HTTP methods and how they are typically used:</p>
 
-      <ul className="list-disc list-inside flex flex-col gap-2">
+      <ul className="list-disc list-inside flex flex-col gap-2 marker:text-purple-500">
         <li>
-        <strong>GET</strong> - The GET method is used to retrieve a resource from the server. It is the most commonly used HTTP method, and it is typically used to request data from an API or web service.
+        <strong>GET</strong> - Used to retrieve a resource from the server like data from an API or web service. It is the most commonly used HTTP method.
         </li>
         <li>
-        <strong>POST</strong> - The POST method is used to submit data to the server, usually for the purpose of creating a new resource. It is typically used when a client wants to send data to the server, such as when a user fills out a form on a website.
+        <strong>POST</strong> - Used to submit data to the server, usually for the purpose of creating a new resource  such as when a user fills out a form on a website.
         </li>
         <li>
-        <strong>PUT</strong> - The PUT method is used to update an existing resource on the server. It is typically used when a client wants to replace an existing resource with a new version.
+        <strong>PUT</strong> - Used to update an existing resource on the server, like when a client wants to replace an existing resource with a new version.
         </li>
         <li>
-        <strong>DELETE</strong> - The DELETE method is used to delete a resource from the server. It is typically used when a client wants to remove a resource from the server permanently.
+        <strong>DELETE</strong> - Used to delete a resource from the server.
         </li>
       </ul>
 

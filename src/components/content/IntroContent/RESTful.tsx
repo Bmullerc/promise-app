@@ -10,7 +10,7 @@ export const RESTful = () => {
       <div className='mb-4'>
         <p className='mb-2'>These principles are:</p>
 
-        <ul className='flex flex-col gap-2 list-inside list-disc even:marker:text-purple-500 marker:text-lime-600'>
+        <ul className='flex flex-col gap-6 mt-6 list-inside list-disc even:marker:text-purple-500 marker:text-lime-600'>
           <li><strong className='text-lime-600'>Client-server architecture</strong> - The client and server are separate and independent components, which means that they can be developed and deployed independently of each other. This also means that the client and server can be implemented using different technologies and programming languages.</li>
 
           <li><strong>Statelessness</strong> - The server does not store any information about the client between requests. The server does not have to store any session information or manage state.</li>
