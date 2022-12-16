@@ -3,8 +3,6 @@ import { Callbacks } from "./content/IntroContent/Callbacks";
 import { HTTP } from "./content/IntroContent/HTTP";
 import HTTPstatus from "./content/IntroContent/HTTPstatus";
 import { RESTful } from "./content/IntroContent/RESTful";
-import XML from "./content/IntroContent/XML";
-import JSON from "./content/IntroContent/JSON";
 
 export function Intro() {
   return (
@@ -19,8 +17,6 @@ export function Intro() {
       <HTTPstatus />
       <API />
       <RESTful />
-      <XML />
-      <JSON />
       <Callbacks />
 
     </article>

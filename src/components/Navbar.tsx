@@ -9,7 +9,7 @@ export function Navbar() {
       <ul className="flex md:justify-center gap-4 font-medium">
 
         <Menu>
-          <a href="#intro" className="hover:text-purple-500 hover:-translate-y-1 transition-all duration-150 ease-in">Intro </a>
+          <a href="#intro" className="hover:text-purple-500 hover:-translate-y-1 transition-all duration-150 ease-in">Basics </a>
 
           <Menu.Button className="-ml-3 hover:text-purple-500 hover:-translate-y-1 transition-all duration-150 ease-in">
             <CaretCircleDown size={24} weight="fill" />
@@ -51,7 +51,7 @@ export function Navbar() {
 
         <Menu>
 
-          <a href="#content" className="inline-block hover:text-purple-500 transition-all duration-150 ease-in hover:-translate-y-1">Content</a>
+          <a href="#content" className="inline-block hover:text-purple-500 transition-all duration-150 ease-in hover:-translate-y-1">Real Deal</a>
 
           <Menu.Button className="-ml-3 hover:text-purple-500 hover:-translate-y-1 transition-all duration-150 ease-in">
             <CaretCircleDown size={24} weight="fill" />
