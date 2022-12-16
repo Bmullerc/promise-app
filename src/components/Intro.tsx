@@ -12,7 +12,7 @@ export function Intro() {
 
       <header>
         <h2 className="text-4xl font-bold border-b-8 w-fit border-purple-400 rounded-md pb-1">Let's Begin</h2>
-        <p className="mt-4 text-lg font-bold">But first, we must cover a few very important topics to know.</p>
+        <p className="mt-4 text-lg font-bold">The very important topics to know.</p>
       </header>
 
       <HTTP />
