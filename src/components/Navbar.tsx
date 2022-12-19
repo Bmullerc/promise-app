@@ -29,13 +29,25 @@ export function Navbar() {
 
               <Menu.Item>
                 {({ active }) => (
-                  <a href="#xml" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>XML</a>
+                  <a href="#http" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>HTTP</a>
                 )}
               </Menu.Item>
 
               <Menu.Item>
                 {({ active }) => (
-                  <a href="#json" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>JSON</a>
+                  <a href="#http-status" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>Status Codes</a>
+                )}
+              </Menu.Item>
+
+              <Menu.Item>
+                {({ active }) => (
+                  <a href="#apis" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>APIs</a>
+                )}
+              </Menu.Item>
+
+              <Menu.Item>
+                {({ active }) => (
+                  <a href="#restful" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>REST</a>
                 )}
               </Menu.Item>
 
@@ -83,7 +95,19 @@ export function Navbar() {
 
               <Menu.Item>
                 {({ active }) => (
-                  <a href="#fetch-header" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>API Fetching</a>
+                  <a href="#ajax" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>AJAX</a>
+                )}
+              </Menu.Item>
+
+              <Menu.Item>
+                {({ active }) => (
+                  <a href="#fetch" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>FetchAPI</a>
+                )}
+              </Menu.Item>
+
+              <Menu.Item>
+                {({ active }) => (
+                  <a href="#axios" className={`${active ? "text-purple-500 transition-all duration-75 ease-in" : "text-inherit"} `}>Axios</a>
                 )}
               </Menu.Item>
 

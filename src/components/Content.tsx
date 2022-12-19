@@ -18,7 +18,9 @@ export function Content() {
         <h2 id="async-header" className="text-4xl font-bold mt-12">Asynchronous Javascript Methods</h2>
         <Promises />
         <Async />
+      </section>
 
+      <section>
         <h2 id="fetch-header" className="text-4xl font-bold border-b-8 w-fit border-purple-400 rounded-md pb-1">API Fetching</h2>
         <Ajax />
         <FetchAPI />

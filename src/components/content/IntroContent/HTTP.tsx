@@ -44,7 +44,7 @@ export const HTTP = () => {
 
       <p>They are a fundamental part of the HTTP protocol, and are used to convey a wide range of information about the request or response. For example, the <Emp>Content-Type</Emp> header is used to specify the media type of the request or response body, while the <Emp>Content-Length</Emp> header is used to specify the length of the body in bytes.</p>
 
-      <h3 className="text-2xl font-bold mt-8">Ok, can I see it in action?</h3>
+      <h3 className="text-2xl font-bold mt-8">Ok, show me.</h3>
 
       <p className="-mb-4">Here is an example of an HTTP request message that a web browser might send to a web server to request a webpage:</p>
 
