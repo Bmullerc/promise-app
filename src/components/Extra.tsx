@@ -1,4 +1,5 @@
 import JSON from "./content/ExtraContent/JSON";
+import SSRvsSSG from "./content/ExtraContent/SSRvsSSG";
 import XML from "./content/ExtraContent/XML";
 
 export function Extra() {
@@ -7,6 +8,7 @@ export function Extra() {
       <h2 className="text-3xl font-bold border-b-8 w-fit border-purple-400 rounded-md pb-1 mb-10">A little Extra</h2>
       <XML />
       <JSON />
+      <SSRvsSSG />
     </article>
   )
 }

@@ -19,5 +19,7 @@
 }
 
 strong {
-  color: rgb(168 85 247);
+  color: rgb(126 34 206);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
