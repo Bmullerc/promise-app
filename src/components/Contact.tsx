@@ -8,7 +8,7 @@ export function Contact() {
         <a href="https://www.behance.net/bernardo_muller"><BehanceLogo size={22} weight="duotone" className="hover:text-purple-300" /></a>
         <a href="https://github.com/Bmullerc"><GithubLogo size={22} weight="duotone" className="hover:text-purple-300" /></a>
       </div>
-      <h5 className="text-xs font-medium mt-1 text-lime-400">Bernardo Müller ⋄ 2022</h5>
+      <h5 className="text-xs font-medium mt-1 text-lime-400">Bernardo Müller ⋄ {new Date().getFullYear()}</h5>
       <a href="https://bemuller.com" className="hover:text-purple-300 text-sm mt-1">bemuller.com</a>
     </footer>
   )
